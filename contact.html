@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+   
+</head>
+<body>
+    <center>
+        <h1>Contact Form</h1>
+        <form name="myForm" method="post" onsubmit="return onValidation()" >
+            <table>
+        <tr><td><label for="">Name</label></td>
+      <td> <input id="name" type="text"></td></td> 
+    </tr>
+    <tr><td>
+        <label for="">email</label></td>
+       <td> <input id="email" type="text" >
+    </td></tr>
+       <tr><td> <label for="">Enter your message</label></td>
+     <td> <textarea id="msg" cols="30" rows="10" ></textarea></td>
+     </tr>
+    </table>
+    <input type="submit" class="btn" value="send"/>
+    </form>
+    </center>
+    <script src="./contact.js"></script>
+</body>
+</html>
